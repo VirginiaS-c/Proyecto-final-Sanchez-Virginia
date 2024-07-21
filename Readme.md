@@ -38,8 +38,8 @@
 - Regístrate como usuario y comienza a explorar las funcionalidades.
 
 ## Usuario Administrador
-- **Usuario**: admin
-- **Contraseña**: admin
+- **Usuario**: virginia
+- **Contraseña**: catalina7
 
 ## Objetivo Funcional
 El objetivo principal de la aplicación **Mundo Libros** es proporcionar una plataforma para la venta en línea de libros, donde los usuarios pueden gestionar información sobre autores y libros, así como dejar reseñas.

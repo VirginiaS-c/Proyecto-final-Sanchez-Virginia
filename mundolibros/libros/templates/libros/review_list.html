@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reviews</title>
+</head>
+<body>
+    <h1>Reviews</h1>
+    <ul>
+        {% for review in reviews %}
+        <li>{{ review.content }} by {{ review.author.name }} - <a href="{% url 'review_update' review.pk %}">Edit</a> - <a href="{% url 'review_delete' review.pk %}">Delete</a></li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'review_create' %}">Add Review</a>
+</body>
+</html>
